@@ -18,6 +18,6 @@ form.addEventListener('submit', (e) => {
     }
   });
 
-  result.querySelector('span').textCotent = `${score}%`;
+  result.querySelector('span').textContent = `${score}%`;
   result.classList.remove('d-none');
 });
